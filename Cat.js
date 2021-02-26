@@ -6,7 +6,7 @@ Cat.prototype.eat = function(animal){
     if(animal instanceof Mouse){
 	this.stomach.push(animal);
 	}else {
-	throw new Error ('Cats can only eat mouse!')
+	throw new Error ('Cats can only eat mouse!');
       };
 };
 module.exports = Cat;
